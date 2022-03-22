@@ -1,0 +1,67 @@
+* {
+    font-family: 'Courier Prime', monospace;
+}
+
+.logo {
+    height: 130px;
+    cursor: pointer;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 32px;
+    color: #dedede;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #333333;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #444444;
+}
+
+body {
+    background: url(assets/background.png);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.pink {
+    color: #ff0099;
+}
+
+.content {
+    padding: 10%;
+}
+
+.dashes{
+    text-align: center;
+    padding: 50px;
+}
+
+.center {
+    text-align: center;
+}
